@@ -1,0 +1,112 @@
+@import url("http://fonts.cdnfonts.com/css/cursed-timer-ulil");
+
+
+body{
+    background-color: hsl(259, 95%, 15%);
+    text-align: center;
+    color: white;
+    font-family: "Cursed Timer ULiL",
+        sans-serif;
+}
+
+header{
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: rgb(234, 12, 12) 3px solid;
+    padding: 2rem;
+    font-size: 40px;
+    }
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 40px;
+}
+
+#b_container{
+   display: flex;
+   justify-content: space-around;
+   max-width: 100%;
+   width: 1000px;
+   color: white;
+   margin: 0 auto;
+   padding: 1rem;
+   margin-top: 0.3rem;
+}
+
+.score{
+    background-color: black;
+        padding: 0.3em 0;
+        border-radius: 0.5em;
+}
+
+.home,
+.guest {
+    border: 2px solid rgb(234, 12, 12);
+    border-radius: 0.8em;
+    padding: 2em 3em;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+.home-score,
+.guest-score {
+    width: 50%;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 0;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+.btns-container {
+    margin-top: 0.4em;
+    padding: 2em;
+}
+
+.btn-score {
+    cursor: pointer;
+        margin: 8px;
+        margin-top: 0.7em;
+        padding: 0.9em 1.5em;
+        background-color: #1b244a;
+        border: 1px solid rgb(234, 12, 12);
+        border-radius: 0.4em;
+        color: whitesmoke;
+        font-size: 1rem;
+}
+
+.btns-container {
+    margin-top: 0.4em;
+    padding: 2em;
+}
+
+.btns {
+    cursor: pointer;
+    padding: 1em 2em;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border: 2px solid rgb(234, 12, 12);
+    background-color: #1b244a;
+    color: aliceblue;
+}
+
+.mess {
+    margin-top: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.winner {
+    background-color: green;
+}
+
+.draw {
+    background-color: blueviolet;
+}
